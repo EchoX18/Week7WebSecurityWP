@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:XXS
     - Tested in version:WordPress 4.2
     - Fixed in version:4.7 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](XXS2.gif)
   - [ ] Steps to recreate: Attacker must fix access the site then add a long code(comment) 
         Once the comment has been submitted the site will display the vulnerability including the message (DOOMED PLANET)
   - [ ] Affected source code:Listing of changes. This inlcuding changing the script.
