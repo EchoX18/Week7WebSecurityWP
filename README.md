@@ -27,7 +27,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XXS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough:  ![alt text](\)
+  - [ ] GIF Walkthrough:  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Number%202.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
