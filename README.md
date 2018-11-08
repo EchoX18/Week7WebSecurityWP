@@ -29,6 +29,11 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough:  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Number%202.gif)
   - [ ] Steps to recreate: 
+       1.Log into Word Press as an Admin or as a authorized user.
+       2.Retrieve the youtube embedded code that you can customize to your liking.
+       3.Insert code into a posting page.
+       4.Click on preview 
+       5.Script should appear with digits one or zero.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
