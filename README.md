@@ -22,11 +22,11 @@ Time spent: **X** hours spent in total
         Once the comment has been submitted the site will display the vulnerability including the message (DOOMED PLANET)
   - [ ] Affected source code:Listing of changes. This inlcuding changing the script.
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+1. (Required) Unauthenticated Stored Cross-Site Scripting
+  - [ ] Summary: Inserting a Youtube embed code that allows for cross site scripting to occur when posted or when authenticated user previews the post.
+    - Vulnerability types: XXS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
