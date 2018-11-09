@@ -29,11 +29,11 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough:  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Number%202.gif)
   - [ ] Steps to recreate: 
-       1.Log into Word Press as an Admin or as a authorized user.
-       2.Retrieve the youtube embedded code that you can customize to your liking.
-       3.Insert code into a posting page.
-       4.Click on preview 
-       5.Script should appear with digits one or zero.
+  1.Log into Word Press as an Admin or as a authorized user.
+  2.Retrieve the youtube embedded code that you can customize to your liking.
+  3.Insert code into a posting page.
+  4.Click on preview 
+  5.Script should appear with digits one or zero.
   - [ ] Affected source code: 
     - [Link 1](https://wpvulndb.com/vulnerabilities/8768)
 1. (Required) Authenticated Stored Cross-Site Scripting Via Image File Name 
@@ -42,8 +42,8 @@ Time spent: **6** hours spent in total
     - Tested in version:4.6 
     - Fixed in version:4.6.1
   - [ ] GIF Walkthrough:
-  ![alt text] (https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Image%202.gif)
-  ![alt text] (https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Image%202-2.gif)
+  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Image%202.gif)
+  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Image%202-2.gif)
   
   - [ ] Steps to recreate:
   1. A script must be made in order to rename the image. In this case I used a img src script.
