@@ -2,7 +2,7 @@
 Using word press 4.2 for these vulnerabilites.
 # Project 7 - WordPress Pentesting
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -69,11 +69,6 @@ Time spent: **6** hours spent in total
   4.Bravo! You have done it!
   - [ ] Affected source code:
     - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9061) 
-
-
-## Assets
-
-List any additional assets, such as scripts or files
 
 ## Resources
 
