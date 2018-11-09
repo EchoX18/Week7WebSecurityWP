@@ -69,7 +69,8 @@ Time spent: **7** hours spent in total
   2. The user must upload to Wordpress as a media file.
   3.Once the user uploads an error will occur showing max file size.
   4.Bravo! You have done it!
-  - [ ] Affected source code:
+
+- [ ] Affected source code:
     - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9061) 
 
 ## Resources
