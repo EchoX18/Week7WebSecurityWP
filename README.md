@@ -2,20 +2,20 @@
 Using word press 4.2 for these vulnerabilites.
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) XXS
+1. (Required) Unauthenticated XXS Cross-Site Scripting
   - [ ] Summary:XXS Comment vulnerabilites that affects the site on the move of the mouse after code has been submitted. 
     - Vulnerability types:XXS
     - Tested in version:WordPress 4.2
-    - Fixed in version:4.7 
+    - Fixed in version:4.2.1
   - [ ] GIF Walkthrough: ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XSS2.gif)
   ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XSS3.gif)
-  
+     - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
  
                          
   - [ ] Steps to recreate: Attacker must fix access the site then add a long code(comment) 
