@@ -53,6 +53,22 @@ Time spent: **6** hours spent in total
   5. Bravo! The Script has been executed.
   - [ ] Affected source code:
     - [Link 1](https://wpvulndb.com/vulnerabilities/8615)
+1. (Optional) Large File Error XXS
+  - [ ] Summary: This XXS is made by creating a fake file that is at least 20 MB. Once file is made, user must rename the file to a XXS script in png. using img src. Once done the user will upload the file and the script will be executed through as a error. 
+    - Vulnerability types: XXS Cross Site Scripting
+    - Tested in version:4.7.2
+    - Fixed in version: 4.7.5
+  - [ ] GIF Walkthrough: 
+  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20MAX.gif)
+  ![alt text](https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20MAX%202.gif)
+  - [ ] Steps to recreate:
+  1. The user must create a fake file of at least 20 MB and rename it with the script (doomedplanet<img src=x onerror=alert(1)>.png)
+  2. The user must upload to Wordpress as a media file.
+  3.Once the user uploads an error will occur showing max file size.
+  4.Bravo! You have done it!
+  - [ ] Affected source code:
+    - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9061) 
+
 
 ## Assets
 
@@ -67,7 +83,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-One main challenge that I got from switching from version to version is that Wordpress started to force me to update to their new version of the program. I still havent gotten a fix for this. This stopped me from moving foward.
+One main challenge that I got from switching from version to version is that Wordpress started to force me to update to their new version of the program. I still havent gotten a fix for this. This stopped me from moving foward. I used Kali Linux for the last two as you can't rename it as I did in windows.
 
 ## License
 
