@@ -67,7 +67,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+One main challenge that I got from switching from version to version is that Wordpress started to force me to update to their new version of the program. I still havent gotten a fix for this. This stopped me from moving foward.
 
 ## License
 
