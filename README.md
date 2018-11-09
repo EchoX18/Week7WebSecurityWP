@@ -18,8 +18,9 @@ Time spent: **6** hours spent in total
      - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
  
                          
-  - [ ] Steps to recreate: Attacker must fix access the site then add a long code(comment) 
-        Once the comment has been submitted the site will display the vulnerability including the message (DOOMED PLANET)
+  - [ ] Steps to recreate:
+  1.Attacker must fix access the site then add a long code(comment) 
+  2.Once the comment has been submitted the site will display the vulnerability including the message (DOOMED PLANET)
   - [ ] Affected source code:Listing of changes. This inlcuding changing the script.
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Authenticated Stored Cross-Site Scripting
