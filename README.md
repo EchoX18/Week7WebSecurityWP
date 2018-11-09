@@ -22,7 +22,7 @@ Time spent: **7** hours spent in total
   1.Attacker must fix access the site then add a long code(comment) 
   2.Once the comment has been submitted the site will display the vulnerability including the message (DOOMED PLANET)
   - [ ] Affected source code:Listing of changes. This inlcuding changing the script.
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  
 1. (Required) Authenticated Stored Cross-Site Scripting
   - [ ] Summary: Inserting a Youtube embed code that allows for cross site scripting to occur when posted or when authenticated user previews the post.
     - Vulnerability types: XXS
@@ -37,6 +37,7 @@ Time spent: **7** hours spent in total
   5.Script should appear with digits one or zero.
   - [ ] Affected source code: 
     - [Link 1](https://wpvulndb.com/vulnerabilities/8768)
+    
 1. (Required) Authenticated Stored Cross-Site Scripting Via Image File Name 
   - [ ] Summary: This vulnerability is done by placing a executing scripting into the name of an image, once submitted and page is preview the script will execute showing the (document.cookie). This can potentially lead to greater risks if the script is manipulated to reveal other items of interest.
     - Vulnerability types:XXS Cross Site Scripting
@@ -54,6 +55,7 @@ Time spent: **7** hours spent in total
   5. Bravo! The Script has been executed.
   - [ ] Affected source code:
     - [Link 1](https://wpvulndb.com/vulnerabilities/8615)
+    
 1. (Optional) Large File Error XXS
   - [ ] Summary: This XXS is made by creating a fake file that is at least 20 MB. Once file is made, user must rename the file to a XXS script in png. using img src. Once done the user will upload the file and the script will be executed through as a error. 
     - Vulnerability types: XXS Cross Site Scripting
