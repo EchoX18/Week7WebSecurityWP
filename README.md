@@ -36,15 +36,23 @@ Time spent: **6** hours spent in total
        5.Script should appear with digits one or zero.
   - [ ] Affected source code: 
     - [Link 1](https://wpvulndb.com/vulnerabilities/8768)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+1. (Required) Authenticated Stored Cross-Site Scripting Via Image File Name 
+  - [ ] Summary: This vulnerability is done by placing a executing scripting into the name of an image, once submitted and page is preview the script will execute showing the (document.cookie). This can potentially lead to greater risks if the script is manipulated to reveal other items of interest.
+    - Vulnerability types:XXS Cross Site Scripting
+    - Tested in version:4.6 
+    - Fixed in version:4.6.1
+  - [ ] GIF Walkthrough:
+  ![alt text] (https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Image%202.gif)
+  ![alt text] (https://github.com/EchoX18/Week7WebSecurityWP/blob/master/XXS%20Image%202-2.gif)
+  
+  - [ ] Steps to recreate:
+  1. A script must be made in order to rename the image. In this case I used a img src script.
+  2. Secondly, you must have an image or save an image from a website or stored device.
+  3. Next, you must rename the image to the script that has been made(this is what will be executed when uploaded)
+  4. You upload to the word press and preview the page.
+  5. Bravo! The Script has been executed.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpvulndb.com/vulnerabilities/8615)
 
 ## Assets
 
